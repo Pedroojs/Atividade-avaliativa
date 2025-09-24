@@ -2,8 +2,6 @@
 // clss - Estrutura de Classe
 // classe construida dentro da pasta "/pessoas/IE
 
-const PJ = require('../PJ');
-
 class IE {
   #numero;
   #estado;
