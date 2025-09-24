@@ -1,14 +1,14 @@
 //imports 
 
-import PJ from '../pessoas/PJ.js';
-import PJDAO from '../pessoas/DAOs/PJDAO.mjs';
-import PF from '../pessoas/PF.js';
-import PFDAO from '../pessoas/DAOs/PFDAO.mjs';
-import Endereco from '../pessoas/Endereco.js';
-import Telefone from '../pessoas/Telefone.js';
-import IE from '../pessoas/IE/IEclss.js';
+import PJ from '../Pessoas/PJ.js';
+import PJDAO from '../Pessoas/DAOs/PJDAO.mjs';
+import PF from '../Pessoas/PF.js';
+import PFDAO from '../Pessoas/DAOs/PFDAO.mjs';
+import Endereco from '../Pessoas/Endereco.js';
+import Telefone from '../Pessoas/Telefone.js';
+import IE from '../Pessoas/IE/IEclss.js';
 import reader from 'readline-sync';
-import Titulo from '../pessoas/Titulo.js';
+import Titulo from '../Pessoas/Titulo.js';
 
 //Funções de Validação 
 function validarEmail(email) {
