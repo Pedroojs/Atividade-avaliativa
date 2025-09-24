@@ -1,4 +1,4 @@
-const Aluno = require('../escola/Aluno');
+const Aluno = require('../Escola/Aluno');
 // Arquivo criado em projeto no www.stackblitz.com denominado usaAluno.js
 // arquivo criado dentro de uma pasta /objetos na raiz do projeto
 // Objetivo do exemplo : demonstrar a utulização dos conceitos de visibilidade de atributos e métodos e objetivos do encapsulamento
