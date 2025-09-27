@@ -2,6 +2,7 @@
   "name": "node-starter",
   "private": true,
   "scripts": {
+    "build": "echo 'No specific build step required for this project. Use npm start or node to run specific files.'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
