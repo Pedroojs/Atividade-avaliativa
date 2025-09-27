@@ -3,7 +3,7 @@
 // Objetivo do exemplo : demonstrar a utulização dos conceitos de encapsulamento (com adição de condicionais) e Herança (classes Pessoa e PF disponíveis na pasta /objetos/pessoas)
 console.log("==== Objeto Pessoa =====");
 
-const Pessoa = require('../pessoas/Pessoa');
+const Pessoa = require('../Pessoas/Pessoa');
 
 const x = new Pessoa();
 // resposta = x.setNome('Leandro');
@@ -24,7 +24,7 @@ if(resposta){
 // ===================================
 console.log("==== Objeto PF =====");
 
-const PF = require('../pessoas/PF');
+const PF = require('../Pessoas/PF');
 const y = new PF();
 
 resposta = y.setNome('Pedro');
@@ -54,7 +54,7 @@ if(resposta){
 // ===================================
 console.log("==== Objeto PJ =====");
 
-const PJ = require('../pessoas/PJ');
+const PJ = require('../Pessoas/PJ');
 const z = new PJ();
 
 resposta = z.setNome('Pedro');
@@ -84,7 +84,7 @@ if(resposta){
 // ====================================
 console.log("==== Objeto Aluno =====");
 
-const Aluno = require('../escola/Aluno');
+const Aluno = require('../Escola/Aluno');
 
 const w = new Aluno();
 

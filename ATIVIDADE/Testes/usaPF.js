@@ -1,8 +1,8 @@
-const Telefone = require('../pessoas/Telefone');
-const Endereco = require('../pessoas/Endereco');
-const Titulo = require('../pessoas/Titulo');
+const Telefone = require('../Pessoas/Telefone');
+const Endereco = require('../Pessoas/Endereco');
+const Titulo = require('../Pessoas/Titulo');
 
-const PF = require('../pessoas/PF');
+const PF = require('../Pessoas/PF');
 
 
 const end = new Endereco();

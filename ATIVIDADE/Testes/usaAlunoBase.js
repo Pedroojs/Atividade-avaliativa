@@ -1,4 +1,4 @@
-const AlunoBase = require('../escola/AlunoBase')
+const AlunoBase = require('../Escola/AlunoBase')
 
 joao = new AlunoBase();
 //joao.#matricula = 12345; --> ERRO

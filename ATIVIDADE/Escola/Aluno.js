@@ -1,7 +1,7 @@
 // Arquivo criado em projeto no www.stackblitz.com denominado Aluno.js
 // arquivo criado dentro de uma pasta /objetos/escola na raiz do projeto
 // Objetivo do exemplo : demonstrar conceitos de visibilidade de atributos e métodos e objetivos do encapsulamento
-const Pessoa = require('../pessoas/Pessoa');
+const Pessoa = require('../Pessoas/Pessoa');
 
 class Aluno extends Pessoa {
 

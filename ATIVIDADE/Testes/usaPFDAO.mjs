@@ -1,10 +1,10 @@
 
-import PF from '../pessoas/PF.js';
-import PFDAO from '../pessoas/DAOs/PFDAO.mjs';
+import PF from '../Pessoas/PF.js';
+import PFDAO from '../Pessoas/DAOs/PFDAO.mjs';
 
-import Endereco from '../pessoas/Endereco.js';
-import Telefone from '../pessoas/Telefone.js';
-import Titulo from '../pessoas/Titulo.js';
+import Endereco from '../Pessoas/Endereco.js';
+import Telefone from '../Pessoas/Telefone.js';
+import Titulo from '../Pessoas/Titulo.js';
 
 const pf = new PF();
 pf.setNome("Carla");

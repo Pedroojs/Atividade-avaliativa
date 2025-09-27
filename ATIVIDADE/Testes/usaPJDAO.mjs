@@ -1,10 +1,10 @@
 
-import PJ from '../pessoas/PJ.js';
-import PJDAO from '../pessoas/DAOs/PJDAO.mjs';
+import PJ from '../Pessoas/PJ.js';
+import PJDAO from '../Pessoas/DAOs/PJDAO.mjs';
 
-import Endereco from '../pessoas/Endereco.js';
-import Telefone from '../pessoas/Telefone.js';
-import IE from '../pessoas/IE/IEclss.js';
+import Endereco from '../Pessoas/Endereco.js';
+import Telefone from '../Pessoas/Telefone.js';
+import IE from '../Pessoas/IE/IEclss.js';
 
 const pj = new PJ();
 pj.setNome("Pedro");
